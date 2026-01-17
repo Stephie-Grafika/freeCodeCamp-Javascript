@@ -1,5 +1,6 @@
 function lunchPickerProgramStarten(){
-    let lunches = [];
+    let lunches = ['Pizza'];
+    let snacks = ['Apfel']
 
     function addLunchToEnd(array, lunchItem) {
     array.push(lunchItem);

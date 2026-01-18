@@ -64,6 +64,8 @@ function recipeTrackerStarten() {
     recipe3.totalIngredients = getTotalIngredients(recipe3.ingredients);
     recipe3.difficultyLevel = getDifficultyLevel(recipe3.cookingTime);
 
+    //Perspektivisch mit for-each lösen
+
     // 6. DAS ERGEBNIS: Wir lassen uns den fertigen Karteikasten anzeigen
     console.log(recipes);
 }
